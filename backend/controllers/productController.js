@@ -69,7 +69,7 @@ export const getAllProduct = async(__dirname,res)=>{
     catch(e){
         return res.status(500).json({
             success:false,
-            message:error.message
+            message:e.message
         })
     }
 }
@@ -100,7 +100,7 @@ return res.status(200).json({
     catch(e){
         return res.status(500).json({
             success:false,
-            message:error.message
+            message:e.message
         })
     }
 }
