@@ -34,7 +34,7 @@ const newProduct= await Product.create({
     productPrice,
     category,
     brand,
-    productImg,//array of objects[{url,public_id}]
+    productImg,//[{url,public_id}]
 })
 return res.status(200).json({
     success:true,
