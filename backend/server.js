@@ -17,6 +17,7 @@ app.use(express.json())
 app.use(cors({
     origin: [
         "http://localhost:5173",
+        "https://ecomartt-nm0ru07es-shudha-nidhi-sonis-projects.vercel.app/"
     ],
     credentials: true
 }))
