@@ -1,9 +1,7 @@
 # 🛒 EcoMart - Full Stack E-Commerce Platform
-
 <p align="center">
   <b>A Modern MERN Stack E-Commerce Platform with Razorpay Integration</b>
 </p>
-
 <p align="center">
   Built using React, Node.js, Express.js, MongoDB, Redux Toolkit, Cloudinary, and Razorpay.
 </p>
@@ -50,77 +48,52 @@ Users can browse products, manage carts, save addresses, place orders, and make 
 
 # 📸 Screenshots
 
-## 🏠 Home Page
+## 🏠 Home & Authentication
 
-![Home Page](./screenshots/home.png)
-
----
-
-# 👤 User Authentication
-
-### Login Page
-
-![Login](./screenshots/login.png)
-
-### Register Page
-
-![Register](./screenshots/register.png)
-
-### User Profile
-
-![Profile](./screenshots/profile.png)
-
-### Authentication Flow
-
-![Authentication](./screenshots/auth-flow.png)
+<table>
+  <tr>
+    <td align="center"><b>🏠 Home Page</b><br/><img src="./screenshots/home.png" alt="Home Page"/></td>
+    <td align="center"><b>👤 User Authentication</b><br/><img src="./screenshots/auth.png" alt="Auth Page"/></td>
+  </tr>
+</table>
 
 ---
 
-# 🛍️ User Features
+## 👤 User Features
 
-### Product Listing
-
-![Products](./screenshots/products.png)
-
-### Product Details
-
-![Product Details](./screenshots/product-details.png)
-
-### Add To Cart
-
-![Cart](./screenshots/cart.png)
-
-### Address Management
-
-![Address](./screenshots/address.png)
-
-### Razorpay Payment
-
-![Payment](./screenshots/payment.png)
+<table>
+  <tr>
+    <td align="center"><b>User Profile</b><br/><img src="./screenshots/profile.png" alt="Profile"/></td>
+    <td align="center"><b>Product Listing</b><br/><img src="./screenshots/products.png" alt="Products"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Product Details</b><br/><img src="./screenshots/product-details.png" alt="Product Details"/></td>
+    <td align="center"><b>Add To Cart</b><br/><img src="./screenshots/cart.png" alt="Cart"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Address Management</b><br/><img src="./screenshots/address.png" alt="Address"/></td>
+    <td align="center"><b>Razorpay Payment</b><br/><img src="./screenshots/payment.png" alt="Payment"/></td>
+  </tr>
+</table>
 
 ---
 
-# 👨‍💼 Admin Dashboard
+## 👨‍💼 Admin Dashboard
 
-### 📊 Sales Analytics Dashboard
-
-![Sales Dashboard](./screenshots/admin-sales.png)
-
-### 👥 User Management
-
-![Users](./screenshots/admin-users.png)
-
-### ➕ Add Product
-
-![Add Product](./screenshots/admin-add-product.png)
-
-### 📦 Product Management
-
-![Products Admin](./screenshots/admin-products.png)
-
-### 🚚 Order Management
-
-![Orders](./screenshots/admin-orders.png)
+<table>
+  <tr>
+    <td align="center"><b>📊 Sales Analytics Dashboard</b><br/><img src="./screenshots/admin-sales.png" alt="Sales Dashboard"/></td>
+    <td align="center"><b>👥 User Management</b><br/><img src="./screenshots/admin-users.png" alt="Users"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>➕ Add Product</b><br/><img src="./screenshots/admin-add-product.png" alt="Add Product"/></td>
+    <td align="center"><b>📦 Product Management</b><br/><img src="./screenshots/admin-products.png" alt="Products Admin"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>🚚 Order Management</b><br/><img src="./screenshots/admin-orders.png" alt="Orders"/></td>
+    <td align="center"></td>
+  </tr>
+</table>
 
 ---
 
@@ -168,8 +141,10 @@ ecomart/
 │   └── tailwind.config.js
 │
 └── README.md
-
 ```
+
+---
+
 ## 🚀 Running the Application
 
 ### Development Mode
@@ -204,4 +179,7 @@ npm install
 npm run build
 npm run preview
 ```
+
+---
+
 **⭐ If you like this project, consider giving it a star!**
