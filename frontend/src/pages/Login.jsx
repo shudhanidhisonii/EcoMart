@@ -90,7 +90,6 @@ const Login = () => {
         {/* Header */}
         <div style={{ padding: '32px 32px 0' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '24px' }}>
-            <span style={{ fontSize: '20px' }}>🌿</span>
             <span style={{ fontSize: '20px', fontWeight: 700, color: '#fff' }}>EcoMart</span>
           </div>
           <h2 style={{ fontSize: '22px', fontWeight: 700, color: '#f9fafb', margin: '0 0 6px' }}>
